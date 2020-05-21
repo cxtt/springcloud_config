@@ -1,0 +1,1 @@
+for i in `find ./ -type f | grep .yml`;do echo "#${i}" > $i; done;
